@@ -603,7 +603,7 @@ AdvancedNamespace(the=0,
     dataclass1(field1='some fairly long text',
                field2=10000000000,
                field3=True)]""",
-        )
+            )
 
     def test_dataclass_with_repr(self):
         dc = dataclass2()
@@ -625,7 +625,7 @@ AdvancedNamespace(the=0,
                 """\
 dataclass4(a=...,
            b=1)""",
-        )
+            )
 
     def test_cyclic_dataclass(self):
         dc5 = dataclass5(None)
@@ -640,7 +640,7 @@ dataclass4(a=...,
 dataclass5(a=dataclass6(c=...,
                         d=1),
            b=1)""",
-        )
+            )
 
     def test_subclassing(self):
         # length(repr(obj)) > width
