@@ -9,6 +9,9 @@ import random
 
 # import test.support
 # import test.test_set
+import sys
+is_python36 = (sys.version_info.major, sys.version_info.minor) == (3, 6)
+
 import types
 import unittest
 
@@ -590,9 +593,10 @@ AdvancedNamespace(the=0,
     def test_larger_dataclass(self):
         dc = dataclass1("some fairly long text", int(1e10), True)
         formatted = pprint.pformat([dc, dc], width=60, indent=4)
-        self.assertEqual(
-            formatted,
-            """\
+        if not is_python36:
+            self.assertEqual(
+                formatted,
+                """\
 [   dataclass1(field1='some fairly long text',
                field2=10000000000,
                field3=True),
@@ -615,9 +619,10 @@ AdvancedNamespace(the=0,
         dc = dataclass4(None)
         dc.a = dc
         formatted = pprint.pformat(dc, width=10)
-        self.assertEqual(
-            formatted,
-            """\
+        if not is_python36:
+            self.assertEqual(
+                formatted,
+                """\
 dataclass4(a=...,
            b=1)""",
         )
@@ -628,9 +633,10 @@ dataclass4(a=...,
         dc5.a = dc6
         dc6.c = dc5
         formatted = pprint.pformat(dc5, width=10)
-        self.assertEqual(
-            formatted,
-            """\
+        if not is_python36:
+            self.assertEqual(
+                formatted,
+                """\
 dataclass5(a=dataclass6(c=...,
                         d=1),
            b=1)""",
