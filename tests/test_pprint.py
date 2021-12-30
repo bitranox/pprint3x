@@ -592,8 +592,8 @@ AdvancedNamespace(the=0,
 
     def test_larger_dataclass(self):
         dc = dataclass1("some fairly long text", int(1e10), True)
-        formatted = pprint.pformat([dc, dc], width=60, indent=4)
         if not is_python36:
+            formatted = pprint.pformat([dc, dc], width=60, indent=4)
             self.assertEqual(
                 formatted,
                 """\
@@ -618,8 +618,8 @@ AdvancedNamespace(the=0,
     def test_recursive_dataclass(self):
         dc = dataclass4(None)
         dc.a = dc
-        formatted = pprint.pformat(dc, width=10)
         if not is_python36:
+            formatted = pprint.pformat(dc, width=10)
             self.assertEqual(
                 formatted,
                 """\
@@ -632,8 +632,8 @@ dataclass4(a=...,
         dc6 = dataclass6(None)
         dc5.a = dc6
         dc6.c = dc5
-        formatted = pprint.pformat(dc5, width=10)
         if not is_python36:
+            formatted = pprint.pformat(dc5, width=10)
             self.assertEqual(
                 formatted,
                 """\
