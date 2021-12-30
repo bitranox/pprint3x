@@ -2,7 +2,7 @@ pprint3x
 ========
 
 
-Version v3.10.1 as of 2021-12-30 see `Changelog`_
+Version v1.0.0 as of 2021-12-30 see `Changelog`_
 
 
 .. include:: ./badges.rst

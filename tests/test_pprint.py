@@ -10,7 +10,6 @@ import random
 # import test.support
 # import test.test_set
 import sys
-
 is_python36 = (sys.version_info.major, sys.version_info.minor) == (3, 6)
 
 import types

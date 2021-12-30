@@ -2,7 +2,7 @@ pprint3x
 ========
 
 
-Version v3.10.1 as of 2021-12-30 see `Changelog`_
+Version v1.0.0 as of 2021-12-30 see `Changelog`_
 
 |build_badge| |license| |jupyter| |pypi| |black|
 
@@ -51,16 +51,7 @@ Version v3.10.1 as of 2021-12-30 see `Changelog`_
 backport of python3.10.1 module "pprint" for python 3.6 ... 3.10
 
 
-
-The pertinent changes from Python 3.6 to Python 3.9 are:
-
-* ``pprint`` can now pretty-print ``types.SimpleNamespace``.
-  Contributed by Carl Bordum Hansenin Python 3.9.
-
-* ``pprint.pp`` has been added to pretty-print objects with dictionary
-  keys being sorted with their insertion order by default. Parameter
-  *sort_dicts* has been added to ``pprint.pprint``, ``pprint.pformat`` and
-  ``pprint.PrettyPrinter``. Contributed by Rémi Lapeyre in Python 3.8.
+this is, to support the "sort_dicts=False" parameter on older python versions.
 
 ----
 
@@ -228,7 +219,7 @@ Changelog
 - new MINOR version for added functionality in a backwards compatible manner
 - new PATCH version for backwards compatible bug fixes
 
-v3.10.1
+v1.0.0
 --------
 2021-12-30: initial release
 
