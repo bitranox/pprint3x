@@ -1,0 +1,5 @@
+## Project Requirements
+click
+cli_exit_tools
+dataclasses; python_version < '3.7'
+lib_detect_testenv
