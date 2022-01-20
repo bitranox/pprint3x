@@ -221,7 +221,7 @@ Changelog
 
 v3.10.1.1
 ---------
-2022-01-20: remove unneccessary dependencies
+2022-01-20: remove unnecessary dependencies, thanks to Ritvik Nag, https://github.com/rnag
 
 v3.10.1
 --------
