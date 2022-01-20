@@ -2,9 +2,9 @@ pprint3x
 ========
 
 
-Version v3.10.1 as of 2021-12-30 see `Changelog`_
+Version v3.10.1.1 as of 2022-01-20 see `Changelog`_
 
-|build_badge| |license| |jupyter| |pypi| |black|
+|build_badge| |license| |jupyter| |pypi| |pypi-downloads| |black|
 
 |codecov| |better_code| |cc_maintain| |cc_issues| |cc_coverage| |snyk|
 
@@ -47,6 +47,10 @@ Version v3.10.1 as of 2021-12-30 see `Changelog`_
 
 .. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
    :target: https://github.com/psf/black
+
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/pprint3x
+   :target: https://pypi.org/project/pprint3x/
+   :alt: PyPI - Downloads
 
 .. start short_desc
 
@@ -108,19 +112,7 @@ and select Python Version 3.10.1
 Usage from Commandline
 ------------------------
 
-.. code-block::
-
-   Usage: pprint3x [OPTIONS] COMMAND [ARGS]...
-
-     backport of pprint from python 3.11
-
-   Options:
-     --version                     Show the version and exit.
-     --traceback / --no-traceback  return traceback information on cli
-     -h, --help                    Show this message and exit.
-
-   Commands:
-     info  get program informations
+there are no cli commands
 
 Installation and Upgrade
 ------------------------
@@ -200,10 +192,7 @@ following modules will be automatically installed :
 .. code-block:: bash
 
     ## Project Requirements
-    click
-    cli_exit_tools
     dataclasses; python_version < '3.7'
-    lib_detect_testenv
 
 Acknowledgements
 ----------------
@@ -229,6 +218,10 @@ Changelog
 - new MAJOR version for incompatible API changes,
 - new MINOR version for added functionality in a backwards compatible manner
 - new PATCH version for backwards compatible bug fixes
+
+v3.10.1.1
+---------
+2022-01-20: remove unneccessary dependencies
 
 v3.10.1
 --------

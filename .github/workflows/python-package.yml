@@ -85,7 +85,7 @@ jobs:
               DO_SETUP_INSTALL: "True"
               DO_SETUP_INSTALL_TEST: "True"
               # Test registered CLI Command
-              DO_CLI_TEST: "True"
+              DO_CLI_TEST: "False"
 
 
           - os: ubuntu-latest
@@ -98,7 +98,7 @@ jobs:
               MYPY_DO_TESTS: "True"
               DO_SETUP_INSTALL: "True"
               DO_SETUP_INSTALL_TEST: "False"
-              DO_CLI_TEST: "True"
+              DO_CLI_TEST: "False"
 
           - os: ubuntu-latest
             python-version: "3.7"
@@ -110,7 +110,7 @@ jobs:
               MYPY_DO_TESTS: "True"
               DO_SETUP_INSTALL: "True"
               DO_SETUP_INSTALL_TEST: "False"
-              DO_CLI_TEST: "True"
+              DO_CLI_TEST: "False"
 
           - os: ubuntu-latest
             python-version: "3.8"
@@ -122,7 +122,7 @@ jobs:
               MYPY_DO_TESTS: "True"
               DO_SETUP_INSTALL: "True"
               DO_SETUP_INSTALL_TEST: "False"
-              DO_CLI_TEST: "True"
+              DO_CLI_TEST: "False"
 
           - os: ubuntu-latest
             python-version: "3.9"
@@ -134,7 +134,7 @@ jobs:
               MYPY_DO_TESTS: "True"
               DO_SETUP_INSTALL: "True"
               DO_SETUP_INSTALL_TEST: "False"
-              DO_CLI_TEST: "True"
+              DO_CLI_TEST: "False"
 
           - os: ubuntu-latest
             python-version: "3.10.0"
@@ -146,7 +146,7 @@ jobs:
               MYPY_DO_TESTS: "True"
               DO_SETUP_INSTALL: "True"
               DO_SETUP_INSTALL_TEST: "True"
-              DO_CLI_TEST: "True"
+              DO_CLI_TEST: "False"
 
           - os: ubuntu-latest
             python-version: "pypy-3.8"
@@ -158,7 +158,7 @@ jobs:
               MYPY_DO_TESTS: "False"
               DO_SETUP_INSTALL: "True"
               DO_SETUP_INSTALL_TEST: "False"
-              DO_CLI_TEST: "True"
+              DO_CLI_TEST: "False"
 
           - os: macos-latest
             python-version: 3.9
@@ -175,7 +175,7 @@ jobs:
               DO_SETUP_INSTALL: "True"
               DO_SETUP_INSTALL_TEST: "True"
               # Test registered CLI Command
-              DO_CLI_TEST: "True"
+              DO_CLI_TEST: "False"
 
 
     name: "${{ matrix.os }} Python ${{ matrix.python-version }}"

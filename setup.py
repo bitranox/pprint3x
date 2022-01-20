@@ -84,7 +84,7 @@ if is_travis_deploy() and is_tagged_commit():
 
 setup_kwargs: Dict[str, Any] = dict()
 setup_kwargs["name"] = "pprint3x"
-setup_kwargs["version"] = "v3.10.1"
+setup_kwargs["version"] = "v3.10.1.1"
 setup_kwargs["url"] = "https://github.com/bitranox/pprint3x"
 setup_kwargs["packages"] = find_packages()
 setup_kwargs["package_data"] = {"pprint3x": ["py.typed", "*.pyi", "__init__.pyi"]}
@@ -102,7 +102,7 @@ setup_kwargs["classifiers"] = [
     "Programming Language :: Python",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-setup_kwargs["entry_points"] = {"console_scripts": ["pprint3x = pprint3x.pprint3x_cli:cli_main"]}
+setup_kwargs["entry_points"] = {}
 # minimally needs to run tests - no project requirements here
 setup_kwargs["tests_require"] = tests_require
 # specify what a project minimally needs to run correctly
