@@ -2,7 +2,7 @@ pprint3x
 ========
 
 
-Version v3.10.1.1 as of 2022-01-20 see `Changelog`_
+Version v3.10.2 as of 2022-01-20 see `Changelog`_
 
 |build_badge| |license| |jupyter| |pypi| |pypi-downloads| |black|
 
@@ -219,8 +219,8 @@ Changelog
 - new MINOR version for added functionality in a backwards compatible manner
 - new PATCH version for backwards compatible bug fixes
 
-v3.10.1.1
----------
+v3.10.2
+--------
 2022-01-20: remove unnecessary dependencies, thanks to Ritvik Nag, https://github.com/rnag
 
 v3.10.1
