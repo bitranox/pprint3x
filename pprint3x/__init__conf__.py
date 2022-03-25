@@ -2,7 +2,7 @@
 
 name = "pprint3x"
 title = "backport of pprint from python 3.11"
-version = "v3.10.3"
+version = "v3.10.4"
 url = "https://github.com/bitranox/pprint3x"
 author = "Robert Nowotny"
 author_email = "bitranox@gmail.com"
@@ -17,7 +17,7 @@ Info for pprint3x:
 
     backport of pprint from python 3.11
 
-    Version : v3.10.3
+    Version : v3.10.4
     Url     : https://github.com/bitranox/pprint3x
     Author  : Robert Nowotny
     Email   : bitranox@gmail.com"""
