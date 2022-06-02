@@ -5,6 +5,9 @@ Changelog
 - new MINOR version for added functionality in a backwards compatible manner
 - new PATCH version for backwards compatible bug fixes
 
+v3.10.4.2
+---------
+2022-06-02: update to github actions checkout@v3 and setup-python@v3
 
 v3.10.4.1
 ---------
