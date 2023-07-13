@@ -1,10 +1,10 @@
 .. start short_desc
 
-Backport of pprint from Python 3.10.1 to Python 3.6-3.9**
+Backport of pprint from Python 3.10.1 to Python 3.7-3.9**
 
 .. end short_desc
 
-The pertinent changes from Python 3.6 to Python 3.9 are:
+The pertinent changes from Python 3.7 to Python 3.9 are:
 
 * ``pprint`` can now pretty-print ``types.SimpleNamespace``.
   Contributed by Carl Bordum Hansenin Python 3.9.
