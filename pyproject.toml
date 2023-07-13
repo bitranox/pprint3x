@@ -10,7 +10,7 @@ authors = [
 ]
 description = "backport of pprint from python 3.11"
 readme = "README.rst"
-requires-python = ">=3.7.0"
+requires-python = ">=3.8.0"
 keywords = [
 ]
 license = {text = "MIT"}
@@ -28,7 +28,7 @@ classifiers = [
 dependencies = [
     "dataclasses; python_version < '3.7'",
 ]
-version = "v3.10.4.3"
+version = "v3.10.4.4"
 # seems to be not allowed anymore
 # zip-save = false
 

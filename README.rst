@@ -2,7 +2,7 @@ pprint3x
 ========
 
 
-Version v3.10.4.3 as of 2023-07-13 see `Changelog`_
+Version v3.10.4.4 as of 2023-07-13 see `Changelog`_
 
 |build_badge| |license| |jupyter| |pypi| |pypi-downloads| |black|
 
@@ -51,11 +51,11 @@ Version v3.10.4.3 as of 2023-07-13 see `Changelog`_
 
 .. start short_desc
 
-Backport of pprint from Python 3.10.1 to Python 3.6-3.9**
+Backport of pprint from Python 3.10.1 to Python 3.7-3.9**
 
 .. end short_desc
 
-The pertinent changes from Python 3.6 to Python 3.9 are:
+The pertinent changes from Python 3.7 to Python 3.9 are:
 
 * ``pprint`` can now pretty-print ``types.SimpleNamespace``.
   Contributed by Carl Bordum Hansenin Python 3.9.
@@ -70,9 +70,9 @@ The pertinent changes from Python 3.6 to Python 3.9 are:
 automated tests, Github Actions, Documentation, Badges, etc. are managed with `PizzaCutter <https://github
 .com/bitranox/PizzaCutter>`_ (cookiecutter on steroids)
 
-Python version required: 3.7.0 or newer
+Python version required: 3.8.0 or newer
 
-tested on recent linux with python 3.7, 3.8, 3.9, 3.10, 3.11, pypy-3.9 - architectures: amd64
+tested on recent linux with python 3.8, 3.9, 3.10, 3.11, pypy-3.9 - architectures: amd64
 
 `100% code coverage <https://codeclimate.com/github/bitranox/pprint3x/test_coverage>`_, flake8 style checking ,mypy static type checking ,tested under `Linux, macOS, Windows <https://github.com/bitranox/pprint3x/actions/workflows/python-package.yml>`_, automatic daily builds and monitoring
 
@@ -241,6 +241,12 @@ Changelog
 - new MAJOR version for incompatible API changes,
 - new MINOR version for added functionality in a backwards compatible manner
 - new PATCH version for backwards compatible bug fixes
+
+v3.10.4.4
+---------
+2023-07-13:
+    - require minimum python 3.8
+    - remove python 3.7 tests
 
 v3.10.4.3
 ---------
