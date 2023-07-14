@@ -5,6 +5,14 @@ Changelog
 - new MINOR version for added functionality in a backwards compatible manner
 - new PATCH version for backwards compatible bug fixes
 
+v3.10.4.5
+---------
+2023-07-14:
+    - add codeql badge
+    - move 3rd_party_stubs outside the src directory
+    - add pypy 3.10 tests
+    - add python 3.12-dev tests
+
 v3.10.4.4
 ---------
 2023-07-13:

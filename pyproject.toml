@@ -28,7 +28,7 @@ classifiers = [
 dependencies = [
     "dataclasses; python_version < '3.7'",
 ]
-version = "v3.10.4.4"
+version = "v3.10.4.5"
 # seems to be not allowed anymore
 # zip-save = false
 
