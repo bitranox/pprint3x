@@ -248,7 +248,7 @@ v3.10.4.6
 ---------
 2023-07-14:
     - flake8
-    - remove python 3.12-dev tests, because they are failing
+    - remove some tests for underscore numbers
 
 v3.10.4.5
 ---------
