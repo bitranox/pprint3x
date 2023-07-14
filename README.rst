@@ -2,7 +2,7 @@ pprint3x
 ========
 
 
-Version v3.10.4.5 as of 2023-07-14 see `Changelog`_
+Version v3.10.4.6 as of 2023-07-14 see `Changelog`_
 
 |build_badge| |codeql| |license| |jupyter| |pypi|
 |pypi-downloads| |black| |codecov| |cc_maintain| |cc_issues| |cc_coverage| |snyk|
@@ -243,6 +243,12 @@ Changelog
 - new MAJOR version for incompatible API changes,
 - new MINOR version for added functionality in a backwards compatible manner
 - new PATCH version for backwards compatible bug fixes
+
+v3.10.4.6
+---------
+2023-07-14:
+    - flake8
+    - remove python 3.12-dev tests, because they are failing
 
 v3.10.4.5
 ---------
