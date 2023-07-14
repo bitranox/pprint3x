@@ -5,6 +5,12 @@ Changelog
 - new MINOR version for added functionality in a backwards compatible manner
 - new PATCH version for backwards compatible bug fixes
 
+v3.10.4.6
+---------
+2023-07-14:
+    - flake8
+    - remove python 3.12-dev tests, because they are failing
+
 v3.10.4.5
 ---------
 2023-07-14:
