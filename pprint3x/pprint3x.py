@@ -543,7 +543,7 @@ class PrettyPrinter:
 
         if issubclass(typ, int) and r is int.__repr__:
             if self._underscore_numbers:
-                return f"{object:_d}", True, False
+                return f"{object: _d}", True, False
             else:
                 return repr(object), True, False
 
