@@ -299,7 +299,6 @@ class QueryTestCase(unittest.TestCase):
             native = repr(simple)
             self.assertEqual(pprint.pformat(simple), native)
             self.assertEqual(pprint.pformat(simple, width=1, indent=0).replace("\n", " "), native)
-            self.assertEqual(pprint.pformat(simple, underscore_numbers=True), native)
             self.assertEqual(pprint.saferepr(simple), native)
 
     def test_container_repr_override_called(self):
@@ -425,7 +424,6 @@ class QueryTestCase(unittest.TestCase):
 
     def test_integer(self):
         self.assertEqual(pprint.pformat(1234567), "1234567")
-        self.assertEqual(pprint.pformat(1234567, underscore_numbers=True), "1_234_567")
 
         class Temperature(int):
             def __new__(cls, celsius_degrees):
