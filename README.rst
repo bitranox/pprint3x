@@ -2,7 +2,7 @@ pprint3x
 ========
 
 
-Version v3.10.4.6 as of 2023-07-14 see `Changelog`_
+Version v3.10.4.6 as of 2023-07-20 see `Changelog`_
 
 |build_badge| |codeql| |license| |jupyter| |pypi|
 |pypi-downloads| |black| |codecov| |cc_maintain| |cc_issues| |cc_coverage| |snyk|
